@@ -1,6 +1,5 @@
 # PROCESO DE TRANSFORMACIÓN DE DATOS Y CARGA EN UN DATA MART 
-
-## Proyecto de Jardinería
+# Proyecto de Jardinería
 
 
 ## Calidad enfocada al DW
@@ -36,16 +35,16 @@ proyecto_datos/
 ```
 ## Diagramas
 
-Esquema relacional de la base de datos de Jardinería
+- Esquema relacional de la base de datos de Jardinería
 
 ![alt text](sql/Diagramas/Esquema_relacional_BD_Jardinería.JPG)
 
 
-Modelo Staging de Jardinería
+- Modelo Staging de Jardinería
 
 ![alt text](sql/Diagramas/modelo_staging_jardineria.JPG)
 
-Modelo Estrella de Jardinería_DW
+- Modelo Estrella de Jardinería_DW
 
 ![alt text](sql/Diagramas/Modelo_Estrella_Jardinería_DW.JPG)
 
