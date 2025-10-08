@@ -1,6 +1,7 @@
 # PROCESO DE TRANSFORMACIÓN DE DATOS Y CARGA EN UN DATA MART 
 # Proyecto de Jardinería
 
+Este repositorio implementa un flujo completo de integración de datos desde la base OLTP hasta la capa Staging y, finalmente, el modelo estrella jardineria_dw, garantizando la trazabilidad e integridad de la información. Se documentan el diseño del modelo, las transformaciones aplicadas y los procesos de validación que habilitan el análisis de ventas. Además, incluye pruebas de calidad enfocadas al DW (completitud, integridad referencial, nulos/rangos, coherencia temporal y unicidad) y los scripts de creación y carga para la BD operacional y Staging, lo que permite reproducir el proceso end-to-end y verificar la calidad final de los datos.
 
 ## Calidad enfocada al DW
 Las pruebas en `sql/quality_tests/` están orientadas a `jardineria_dw`.
